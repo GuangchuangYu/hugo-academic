@@ -60,11 +60,12 @@
 
         <div class="space-below"></div>
 
-        {{ .Content }}
+        <div class="article-style">{{ .Content }}</div>
 
     </div>
 
     {{ partial "section_pager.html" . }}
-    {{ partial "footer_container.html" . }}
+
 </div>
+{{ partial "footer_container.html" . }}
 {{ partial "footer.html" . }}
